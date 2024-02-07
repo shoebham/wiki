@@ -4,6 +4,7 @@ import { getSidebar } from 'vitepress-plugin-auto-sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/wiki/",
   title: "abc",
   description: "def",
   themeConfig: {
@@ -19,6 +20,6 @@ export default defineConfig({
    search: {
 	      provider: 'local'
 	},
-	base: '/wiki'
+
   }
 })
