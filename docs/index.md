@@ -1,15 +1,18 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home 
-sidebar: true
-
+layout: home
 hero:
-  name: "Personal Wiki"
-  tagline: "trying to keep a list of everything i encounter"
+  name: personal wiki 
+  text: 
+  tagline: another brain dump
+  image:
+    src: https://avatars.githubusercontent.com/u/25881429?v=4
+    alt: VitePress
   actions:
     - theme: brand
-
-features:
+      text: get started 
+      link: /home
+    - theme: alt
+      text: github
+      link: https://github.com/shoebham/wiki
 
 ---
-
