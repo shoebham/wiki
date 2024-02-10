@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: get started 
-      link: /home
+      link: /Home
     - theme: alt
       text: github
       link: https://github.com/shoebham/wiki
